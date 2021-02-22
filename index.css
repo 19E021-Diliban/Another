@@ -1,0 +1,31 @@
+body{
+	background-color: #0b1b2a;
+}
+#table1{
+	color: #FFF;
+	width: 90%;
+	border: solid 2px;
+	border-color: #aaa !important;
+	border-collapse: collapse ;
+	font-weight: 700;
+}
+tr{
+	text-align: center;
+	
+}
+tr,td{
+	border-color: white;
+}
+tr:nth-child(even){
+	background-color: #10273c;
+	
+}
+tr:nth-child(odd){
+	background-color: #0b1b2a;
+	
+}
+canvas{
+	width: 90% !important;
+	height: 400px !important;
+	
+}
